@@ -6,6 +6,16 @@ public class SumOfFiveNumbers {
 
         Scanner scanner = new Scanner(System.in);
 
+        int firstNum = scanner.nextInt();
+        int secondNum = scanner.nextInt();
+        int thirdNum = scanner.nextInt();
+        int fourthNum = scanner.nextInt();
+        int fifthNum = scanner.nextInt();
+
+        int sum = firstNum + secondNum + thirdNum + fourthNum + fifthNum;
+
+        System.out.println(sum);
+
 
     }
 }
